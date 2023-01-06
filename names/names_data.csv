@@ -1,0 +1,5 @@
+AWSCLIV2Command,AWSCLIV2CommandNoDashes,GoV1Package,GoV2Package,ProviderPackageActual,ProviderPackageCorrect,SplitPackageRealPackage,Aliases,ProviderNameUpper,GoV1ClientTypeName,SkipClientGenerate,ClientSDKV1,ClientSDKV2,ResourcePrefixActual,ResourcePrefixCorrect,FilePrefix,DocPrefix,HumanFriendly,Brand,Exclude,AllowedSubcategory,DeprecatedEnvVar,EnvVar,Note
+s3api,s3api,s3,s3,,s3,,s3api,S3,S3,x,1,,aws_(canonical_user_id|s3_bucket|s3_object),aws_s3_,,s3_bucket;s3_object;canonical_user_id,S3 (Simple Storage),Amazon,,,AWS_S3_ENDPOINT,TF_AWS_S3_ENDPOINT,
+s3control,s3control,s3control,s3control,,s3control,,,S3Control,S3Control,,1,2,aws_(s3_account_|s3control_|s3_access_),aws_s3control_,,s3control;s3_account_;s3_access_,S3 Control,Amazon,,,,,
+s3outposts,s3outposts,s3outposts,s3outposts,,s3outposts,,,S3Outposts,S3Outposts,,1,,,aws_s3outposts_,,s3outposts_,S3 on Outposts,Amazon,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
