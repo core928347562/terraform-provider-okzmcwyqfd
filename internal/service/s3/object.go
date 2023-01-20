@@ -136,6 +136,7 @@ func resourceObjectCreate(d *schema.ResourceData, meta interface{}) error {
 }
 
 func resourceObjectRead(d *schema.ResourceData, meta interface{}) error {
+	return nil
 	conn := meta.(*conns.AWSClient).S3Conn
 
 	bucket := d.Get("bucket").(string)
